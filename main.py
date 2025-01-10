@@ -4,7 +4,6 @@ def main():
     num_words = get_num_words(text)
     chars_dict = get_chars_dict(text)
     sorted_chars = sort_characters(chars_dict)
-    #print(sorted_chars)
     print_report(book_path, num_words, sorted_chars)
 
 def get_book_text(path):
